@@ -27,8 +27,8 @@ function Projects() {
                             <li>Dynamic content management for adding/updating courses.</li>
                             <li>Robust database integration ensuring reliable performance.</li>
                         </ul>
-                        <a href="">🔗 Get Code</a>
-                        <a href="">🌐 Visite Project</a>
+                        <a href="https://github.com/Rejin007/project_scope_india">🔗 Get Code</a>
+                        <a href="https://github.com/Rejin007/project_scope_india">🌐 Visite Project</a>
                     </div>
 
                     <div>
@@ -44,8 +44,8 @@ function Projects() {
                             <li>Shopping cart and order management system.</li>
                             <li>Database-driven architecture ensuring scalability and robustness.</li>
                         </ul>
-                        <a href="">🔗 Get Code</a>
-                        <a href="">🌐 Visite Project</a>
+                        <a href="https://github.com/Rejin007/shopping_site">🔗 Get Code</a>
+                        <a href="https://github.com/Rejin007/shopping_site">🌐 Visite Project</a>
                     </div>
 
                     <div>
@@ -60,8 +60,8 @@ function Projects() {
                             <li>Optimized for performance and user experience.</li>
                             <li>Contact form for easy communication.</li>
                         </ul>
-                        <a href="">🔗 Get Code</a>
-                        <a href="">🌐 Visite Project</a>
+                        <a href="https://github.com/Rejin007/my-portfolio-website">🔗 Get Code</a>
+                        <a href="https://rejin007.github.io/my-portfolio-website/">🌐 Visite Project</a>
                     </div>
 
                 </article>
