@@ -1,0 +1,62 @@
+#skill-section {
+    margin-top: 150px;
+    font-size: 18px;
+}
+
+#skill-section article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 50px;
+}
+
+#skill-section article>div {
+    padding: 20px;
+    flex-basis: 40%;
+    flex-flow: 1;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(158, 0, 249, 1);
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills p {
+    padding: 10px 7px;
+    flex-basis: 20%;
+    flex-flow: 1;
+    border-radius: 10px;
+    border: 3px solid rgb(72, 4, 124);
+    box-shadow: 0 0 20px rgba(158, 0, 249, 0.3);
+}
+
+@media(max-width:1200px) {
+    .skills p {
+        flex-basis: 40%;
+        flex-flow: 1;
+    }
+
+}
+
+@media(max-width:750px) {
+    .skills p {
+        flex-basis: 40%;
+    }
+
+    #skill-section article>div {
+        flex-flow: 1;
+        flex-basis: 90%;
+    }
+    #skill-section{
+        font-size: 15px;
+    }
+    #skill-section article {
+        gap: 20px;
+        padding: 20px;
+    }
+}
+

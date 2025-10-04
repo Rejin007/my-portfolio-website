@@ -1,0 +1,38 @@
+#education-section{
+    padding-top: 120px;
+    font-size: 18px;
+}
+
+#education-section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(158, 0, 249, 1);
+    padding: 20px;
+}
+
+#education-section a{
+    color: #fff;
+    background-color: rgb(72, 4, 124);
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#education-section a:hover{
+    background-color: white;
+    color: black;
+}
+
+@media(max-width:700px){
+    #education-section{
+        font-size: 15px;
+    }
+    #education-section div{
+        margin: 30px;
+    }
+}

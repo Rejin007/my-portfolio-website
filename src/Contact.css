@@ -1,0 +1,114 @@
+#contact-section {
+    padding-top: 120px;
+    font-size: 18px;
+}
+
+#contact-article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(158, 0, 249, 1);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#contact-section a {
+    color: #fff;
+    background-color: rgb(72, 4, 124);
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+#contact-section a:hover {
+    background-color: white;
+    color: black;
+}
+
+#contact-section button {
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 60%;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(144, 0, 255));
+    border-radius: 10%;
+}
+
+#contact-section button:hover {
+    background-image: linear-gradient(to right, rgb(144, 0, 255), rgb(255, 255, 255));
+}
+
+
+
+#contact-article div:first-child div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#contact-article div:first-child div p {
+    flex-basis: 40%;
+    flex-flow: 1;
+}
+
+#contact-article div {
+    flex: 1;
+    padding: 20px;
+}
+
+
+#contact-article input,
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    outline: none;
+}
+
+input,textarea {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+@media(max-width:1000px) {
+    #contact-section {
+        margin-top: 100px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    #contact-article {
+        margin: 30px;
+        flex-direction: column;
+    }
+
+    #contact-article input,
+    textarea {
+        width: 100%;
+        
+    }
+}
+
+@media(max-width:450px) {
+    #contact-section {
+        margin-top: 100px;
+        font-size: 15px;
+    }
+
+    #contact-article div:first-child div p {
+        flex-basis: 100%;
+        flex-flow: 1;
+    }
+
+}
