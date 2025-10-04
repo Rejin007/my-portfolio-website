@@ -51,7 +51,7 @@ function About() {
                 </p><br /><br />
                 <a href="https://drive.google.com/file/d/1ymvI-fdDfEl2P1vgOg0BStYJ-xXnQVWi/view?usp=drive_link" target="_blank">Check Resume</a>
             </div>
-            <img src="src/assets/my-image.png" alt="profile-picture" />
+            <img src="public/my-image.png" alt="profile-picture" />
         </section>
     );
 }
