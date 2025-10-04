@@ -46,7 +46,7 @@ function App() {
       <section id="footer-section">
         <h2>REJIN.R.J</h2>
         <div>
-          <a href=""><img src="C:\Users\Rejin\OneDrive\Desktop\my-portfolio-resume\myapp\src\assets\phone-logo.png" alt="phone" /></a>
+          <a href=""><img src="https://github.com/Rejin007/my-portfolio-website/blob/main/src/assets/phone-logo.png" alt="phone" /></a>
           <a href=""><img src="src/assets/envelope_mail-logo.png" alt="envelope_mail" /></a>
           <a href=""><img src="src/assets/linkedin-logo.png" alt="linkedin" /></a>
           <a href=""><img src="src/assets/instagram-logo.png" alt="instagram" /></a>
