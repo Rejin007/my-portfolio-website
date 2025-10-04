@@ -1,5 +1,21 @@
 import './App.css'
 import './Skills.css'
+import html from './assets/html.png'
+import css from './assets/css.png'
+import js from './assets/js_5968292.png'
+import react from './assets/react-js.png'
+import bootstrap from './assets/bootstrap.png'
+import jquery from './assets/jquery.png'
+import python from './assets/python.png'
+import django from './assets/django.png'
+import sql from './assets/sql.png'
+import git from './assets/git.png'
+import github from './assets/github.png'
+import vscode from './assets/vscode.png'
+
+
+
+
 function Skill() {
     return (
         <>
@@ -11,12 +27,12 @@ function Skill() {
                     <div>
                         <h2>Frontend</h2>
                         <div className='skills'>
-                            <p><img src="src/assets/html.png" alt="html" /> HTML</p>
-                            <p><img src="src/assets/css.png" alt="css" /> CSS</p>
-                            <p><img src="src/assets/js_5968292.png" alt="js" /> JavaScript</p>
-                            <p><img src="src/assets/react-js.png" alt="react" /> React-JS</p>
-                            <p><img src="src/assets/bootstrap.png" alt="bootstrap" /> Bootstrap</p>
-                            <p><img src="src/assets/jquery.png" alt="jquery" /> J-query</p>
+                            <p><img src={html} alt="html" /> HTML</p>
+                            <p><img src={css} alt="css" /> CSS</p>
+                            <p><img src={js} alt="js" /> JavaScript</p>
+                            <p><img src={react} alt="react" /> React-JS</p>
+                            <p><img src={bootstrap} alt="bootstrap" /> Bootstrap</p>
+                            <p><img src={jquery} alt="jquery" /> J-query</p>
                             <p> Ajax</p>
                             <p> Fetch API</p>
                         </div>
@@ -25,18 +41,18 @@ function Skill() {
                     <div>
                         <h2>Backend</h2>
                         <div className='skills'>
-                            <p><img src="src/assets/python.png" alt="python" /> Python</p>
-                            <p><img src="src/assets/django.png" alt="django" /> Django</p>
-                            <p><img src="src/assets/sql.png" alt="sql" /> Sql</p>
+                            <p><img src={python} alt="python" /> Python</p>
+                            <p><img src={django} alt="django" /> Django</p>
+                            <p><img src={sql} alt="sql" /> Sql</p>
                         </div>
                     </div>
 
                     <div>
                         <h2>Others</h2>
                         <div className='skills'>
-                            <p><img src="src/assets/git.png" alt="git" /> Git</p>
-                            <p><img src="src/assets/github.png" alt="github" /> GitHub</p>
-                            <p><img src="src/assets/vscode.png" alt="vscode" /> VS Code</p>
+                            <p><img src={git} alt="git" /> Git</p>
+                            <p><img src={github} alt="github" /> GitHub</p>
+                            <p><img src={vscode} alt="vscode" /> VS Code</p>
                         </div>
                     </div>
 

@@ -6,6 +6,15 @@ import Contact from './Contact'
 import Projects from './Projects'
 import Education from './Education'
 
+import phone from './assets/phone-logo.png'
+import envelope_mail from './assets/envelope_mail-logo.png'
+import linkedin from './assets/linkedin-logo.png'
+import instagram from './assets/instagram-logo.png'
+import whatsapp from './assets/whatsapp-logo.png'
+import youtube from './assets/youtube_logo.png'
+
+import portfolio from './assets/portfolio-logo.png'
+
 function App() {
 
 
@@ -13,7 +22,7 @@ function App() {
     <>
       <Router>
         <section id="header-section">
-          <img src="src/assets/portfolio-logo.png" alt="portfolio-logo" />
+          <img src={portfolio} alt="portfolio-logo" />
           <nav className='nav-desktop'>
             <Link to="/">Home </Link>
             <Link to="/skills"> Skills</Link>
@@ -46,12 +55,12 @@ function App() {
       <section id="footer-section">
         <h2>REJIN.R.J</h2>
         <div>
-          <a href=""><img src="/phone-logo.png" alt="phone" /></a>
-          <a href=""><img src="src/assets/envelope_mail-logo.png" alt="envelope_mail" /></a>
-          <a href=""><img src="src/assets/linkedin-logo.png" alt="linkedin" /></a>
-          <a href=""><img src="src/assets/instagram-logo.png" alt="instagram" /></a>
-          <a href=""><img src="src/assets/whatsapp-logo.png" alt="whatsapp" /></a>
-          <a href=""><img src="src/assets/youtube_logo.png" alt="youtube_logo" /></a>
+          <a href=""><img src={phone} alt="phone" /></a>
+          <a href=""><img src={envelope_mail} alt="envelope_mail" /></a>
+          <a href=""><img src={linkedin} alt="linkedin" /></a>
+          <a href=""><img src={instagram} alt="instagram" /></a>
+          <a href=""><img src={whatsapp} alt="whatsapp" /></a>
+          <a href=""><img src={youtube} alt="youtube_logo" /></a>
         </div>
         <h3>Elevating the Digital Experience !</h3>
       </section>

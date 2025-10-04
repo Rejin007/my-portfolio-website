@@ -1,4 +1,11 @@
 import './Education.css'
+
+import logo from './assets/scope-india-logo.png'
+import ashok from './assets/ashok-leyland-logo.png'
+import polytechnic from './assets/sree_krishna_polytechnic_college_logo.png'
+import evans from './assets/evans-school-logo.png'
+
+
 function Education() {
     return (
         <>
@@ -9,7 +16,7 @@ function Education() {
 
                 <div>
                     <h2>Scope India</h2>
-                    <img src="src/assets/scope-india-logo.png" alt="scope-india-logo"/>
+                    <img src={logo} alt="scope-india-logo"/>
                     <p>Python-Full-Stack</p>
                     <p><em>2024 - 2025</em></p>
                     <ul type="square">
@@ -24,7 +31,7 @@ function Education() {
 
                 <div>
                     <h2>Ashok-Leyland</h2>
-                    <img src="src/assets/ashok-leyland-logo.png" alt="ashok-leyland-logo"/>
+                    <img src={ashok} alt="ashok-leyland-logo"/>
                     <p>Apprentice-Ship[NAPS-Trainee]</p>
                     <p><em>2022 - 2024</em></p>
                     <ul type="square">
@@ -35,12 +42,12 @@ function Education() {
                         <li>Collaborated with experienced technicians and engineers to enhance technical skills.</li>
                         <li>Understood safety protocols and best practices in an industrial environment.</li>
                     </ul>
-                    <a href="" target='_blank'>Certificate</a>
+                    <a href="https://drive.google.com/file/d/11OMAqmWIqqdpyzOL9Upn8lhFrhkmXle-/view?usp=drive_link" target='_blank'>Certificate</a>
                 </div>
 
                 <div>
                     <h2>Sree Krishna Pollytechnic College Nagarcoil.</h2>
-                    <img src="src/assets/sree_krishna_polytechnic_college_logo.png" alt="sree_krishna_polytechnic_college_logo"/>
+                    <img src={polytechnic} alt="sree_krishna_polytechnic_college_logo"/>
                     <p>Diploma in Mechanical Engineering.</p>
                     <p><em>2020 - 2022</em></p>
                     <p>Grade: <strong>89%</strong> </p>
@@ -70,7 +77,7 @@ function Education() {
 
                 <div>
                     <h2>Evans High School Parassala.</h2>
-                    <img src="src/assets/evans-school-logo.png" alt="evans-school-logo"/>
+                    <img src={evans} alt="evans-school-logo"/>
                     <p>SSLC - X (Std:10th).</p>
                     <p><em>2017 - 2018</em></p>
                     <p>Grade: <strong>86%</strong> </p>

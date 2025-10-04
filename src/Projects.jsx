@@ -1,4 +1,11 @@
 import './Project.css'
+
+import scope from './assets/scope.png'
+import shoppingsite from './assets/shoppingsite.png'
+import portfolio from './assets/portfolio.png'
+
+
+
 function Projects() {
     return (
         <>
@@ -9,7 +16,7 @@ function Projects() {
                 <article id='project-article'>
 
                     <div>
-                        <img src="src/assets/scope.png" alt="scope-project-landing-page-template" />
+                        <img src={scope} alt="scope-project-landing-page-template" />
                         <p><strong>Tech Stack : </strong>HTML , CSS , Java-Script,Bootstrap, Python, Django, MySQL.</p>
                         <h2>Scope India Educational Website.</h2>
                         <p><strong>Year : </strong>2025</p>
@@ -25,7 +32,7 @@ function Projects() {
                     </div>
 
                     <div>
-                        <img src="src/assets/shoppingsite.png" alt="shoppingsite-project-landing-page-template" />
+                        <img src={shoppingsite} alt="shoppingsite-project-landing-page-template" />
                         <p><strong>Tech Stack : </strong>HTML , CSS , Java-Script ,Python, Django, MySQL.</p>
                         <h2>E Commercial Shopping Website.</h2>
                         <p><strong>Year : </strong>2025</p>
@@ -42,7 +49,7 @@ function Projects() {
                     </div>
 
                     <div>
-                        <img src="src/assets/portfolio.png" alt="my-portfolio-landing-page-template" />
+                        <img src={portfolio} alt="my-portfolio-landing-page-template" />
                         <p><strong>Tech Stack : </strong> HTML, CSS, Java-Script, React.js</p>
                         <h2>My Portfolio Website.</h2>
                         <p><strong>Year : </strong>2025</p>

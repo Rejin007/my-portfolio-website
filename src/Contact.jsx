@@ -44,13 +44,13 @@ function Contact() {
               <strong>Contact : </strong>
               <br />
               <br />
-              <a href="tel:+91XXXXXXXXXX">Click Me!</a>
+              <a href="tel:+918590471041">Click Me!</a>
             </p>
             <p>
               <strong>LinkedIn :</strong>
               <br />
               <br />
-              <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/rejin-r-j-a88066377/" target="_blank" rel="noreferrer">
                 Click Me!
               </a>
             </p>
