@@ -27,6 +27,7 @@ function Education() {
                         <li>Strengthened knowledge of modern full-stack development practices.</li>
                         <li>Passionate about designing user-centric, scalable, and engaging digital solutions.</li>
                     </ul>
+                    <a href="https://drive.google.com/file/d/12TAAYzzkqM1FOfrYULs8ELbOL5nHkqN0/view?usp=drive_link" target='_blank'>&#127891; Certificate</a>
                 </div>
 
                 <div>
@@ -42,7 +43,7 @@ function Education() {
                         <li>Collaborated with experienced technicians and engineers to enhance technical skills.</li>
                         <li>Understood safety protocols and best practices in an industrial environment.</li>
                     </ul>
-                    <a href="https://drive.google.com/file/d/11OMAqmWIqqdpyzOL9Upn8lhFrhkmXle-/view?usp=drive_link" target='_blank'>Certificate</a>
+                    <a href="https://drive.google.com/file/d/11OMAqmWIqqdpyzOL9Upn8lhFrhkmXle-/view?usp=drive_link" target='_blank'>&#127891; Certificate</a>
                 </div>
 
                 <div>

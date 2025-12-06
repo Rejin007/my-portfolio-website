@@ -15,6 +15,7 @@ function Projects() {
                     android apps.Here are some of my projects.</p>
                 <article id='project-article'>
 
+
                     <div>
                         <img src={scope} alt="scope-project-landing-page-template" />
                         <p><strong>Tech Stack : </strong>HTML , CSS , Java-Script,Bootstrap, Python, Django, MySQL.</p>
@@ -27,8 +28,8 @@ function Projects() {
                             <li>Dynamic content management for adding/updating courses.</li>
                             <li>Robust database integration ensuring reliable performance.</li>
                         </ul>
-                        <a href="https://github.com/Rejin007/project_scope_india">🔗 Get Code</a>
-                        <a href="https://github.com/Rejin007/project_scope_india">🌐 Visite Project</a>
+                        <a href="https://github.com/Rejin007/project_scope_india" target='_blank'>&#128279; Get Code</a>
+                        <a href="https://github.com/Rejin007/project_scope_india" target='_blank'>&#127760; Visite Project</a>
                     </div>
 
                     <div>
@@ -44,8 +45,8 @@ function Projects() {
                             <li>Shopping cart and order management system.</li>
                             <li>Database-driven architecture ensuring scalability and robustness.</li>
                         </ul>
-                        <a href="https://github.com/Rejin007/shopping_site">🔗 Get Code</a>
-                        <a href="https://github.com/Rejin007/shopping_site">🌐 Visite Project</a>
+                        <a href="https://github.com/Rejin007/shopping_site" target='_blank'>&#128279; Get Code</a>
+                        <a href="https://github.com/Rejin007/shopping_site" target='_blank'>&#127760; Visite Project</a>
                     </div>
 
                     <div>
@@ -60,8 +61,27 @@ function Projects() {
                             <li>Optimized for performance and user experience.</li>
                             <li>Contact form for easy communication.</li>
                         </ul>
-                        <a href="https://github.com/Rejin007/my-portfolio-website">🔗 Get Code</a>
-                        <a href="https://rejin007.github.io/my-portfolio-website/">🌐 Visite Project</a>
+                        <a href="https://github.com/Rejin007/my-portfolio-website" target='_blank'>&#128279; Get Code</a>
+                        <a href="https://rejin007.github.io/my-portfolio-website/" target='_blank'>&#127760; Visite Project</a>
+                    </div>
+
+
+                    <div>
+                        {/* <img src={scope} alt="scope-project-landing-page-template" /> */}
+                        <h2>Career Guidance System.</h2>
+                        <p><strong>Year : </strong>2025</p>
+                        <p><strong>Tech Stack : </strong>HTML , CSS , Java-Script,Bootstrap, Python, Django, MySQL.</p>
+                        <ul type="square">
+                            <li>Personalized career recommendations based on user skills, interests, and academic background.</li>
+                            <li>User-friendly dashboard for students to explore multiple career paths.</li>
+                            <li>Admin panel for managing career data, categories, and recommendation rules.</li>
+                            <li>Automated suggestion engine using predefined logic to match
+                                users with suitable careers. </li>
+                            <li>Secure authentication system for both students and administrators.</li>
+                            <li>Scalable database design to store user profiles, career information, and guidance resources.</li>
+                        </ul>
+                        {/* <a href="https://github.com/Rejin007/project_scope_india" target='_blank'>&#128279; Get Code</a>
+                        <a href="https://github.com/Rejin007/project_scope_india" target='_blank'>&#127760; Visite Project</a> */}
                     </div>
 
                 </article>

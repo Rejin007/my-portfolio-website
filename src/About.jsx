@@ -51,7 +51,7 @@ function About() {
                     Eager to contribute . Creativity and bring innovative ideas to life.
 
                 </p><br /><br />
-                <a href="https://drive.google.com/file/d/15EbgIPK2GiaYUXJRkwIuxjFKmPfuVytS/view?usp=drive_link" target="_blank">Check Resume</a>
+                <a href="https://drive.google.com/file/d/1m81v1-VYzVQsmbjfUpEn6xY0lgcaQyHb/view?usp=drive_link" target="_blank">Check Resume</a>
             </div>
             <img src={image} alt="profile-picture" />
         </section>

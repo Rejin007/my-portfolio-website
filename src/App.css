@@ -30,16 +30,18 @@ body {
   text-decoration: none;
   font-size: 18px;
   padding: 9px 12px;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0);
   transition: 0.3s;
 }
 
 .nav-desktop a:hover {
-  color: blue;
+  color: rgb(255, 255, 255);
   font-weight: bold;
-  padding: 6px 11px;
+  padding: 9px 12px;
   border-radius: 5px;
   border: 1px solid white;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: blueviolet;
 }
 
 /* ---------- FOOTER ---------- */
@@ -86,11 +88,6 @@ body {
   border-radius: 8px;
 }
 
-/* hamburger icon */
-.nav-mobile summary::before {
-  content: "☰";
-  font-size: 20px;
-}
 
 .nav-mobile summary::-webkit-details-marker {
   display: none;
