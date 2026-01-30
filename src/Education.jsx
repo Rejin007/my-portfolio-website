@@ -1,6 +1,7 @@
 import './Education.css'
 
 import logo from './assets/scope-india-logo.png'
+import suffix from './assets/suffix-e-solutions-logo.jpg'
 import ashok from './assets/ashok-leyland-logo.png'
 import polytechnic from './assets/sree_krishna_polytechnic_college_logo.png'
 import evans from './assets/evans-school-logo.png'
@@ -15,23 +16,39 @@ function Education() {
                     My educational details are as follows.</p>
 
                 <div>
-                    <h2>Scope India</h2>
+                    <h2>SUFFIX E SOLUTIONS</h2>
+                    <img src={suffix} alt="scope-india-logo"/>
+                    <p>Software Developer Trainee</p>
+                    <p><em>2025 - 2026</em></p>
+                    <ul type="square">
+                        <li>Worked as a Software Developer Trainee, contributing to full-stack web application development.</li>
+                        <li>Developed and maintained applications using HTML, CSS, JavaScript, React.js, Python, Django, and SQL.</li>
+                        <li>Designed and implemented responsive, visually engaging user interfaces.</li>
+                        <li>Built and enhanced real-world projects using React.js for frontend and Django for backend.</li>
+                        <li>Collaborated with team members to follow modern full-stack development practices.</li>
+                        <li>Focused on creating user-centric, scalable, and high-performance digital solutions.</li>
+                    </ul>
+                    <a href="https://drive.google.com/file/d/1W5c3o-zW37u5OQwxjodxeq4KUTn2kTih/view?usp=drive_link" target='_blank'>&#127891; Certificate</a>
+                </div>
+
+                <div>
+                    <h2>SCOPE INDIA</h2>
                     <img src={logo} alt="scope-india-logo"/>
-                    <p>Python-Full-Stack</p>
+                    <p>Python-Full-Stack (certification with internship)</p>
                     <p><em>2024 - 2025</em></p>
                     <ul type="square">
-                        <li>Completed a comprehensive Python Full-Stack Development course.</li>
-                        <li>Gained expertise in HTML, CSS, JavaScript, React.js, Python, Django, and SQL.</li>
-                        <li>Skilled in crafting visually captivating, responsive websites and dynamic web applications.</li>
-                        <li>Built hands-on projects using React.js and Django.</li>
-                        <li>Strengthened knowledge of modern full-stack development practices.</li>
-                        <li>Passionate about designing user-centric, scalable, and engaging digital solutions.</li>
+                       <li>Completed Python Full-Stack Development certification with practical internship experience.</li>
+                        <li>Worked with HTML, CSS, JavaScript, React.js, Python, Django, and SQL in real-time projects.</li>
+                        <li>Designed and developed responsive web interfaces and backend functionalities.</li>
+                        <li>Implemented full-stack features using React.js and Django frameworks.</li>
+                        <li>Followed industry-standard development practices and coding principles.</li>
+                        <li>Demonstrated strong attention to usability, scalability, and performance.</li>
                     </ul>
                     <a href="https://drive.google.com/file/d/12TAAYzzkqM1FOfrYULs8ELbOL5nHkqN0/view?usp=drive_link" target='_blank'>&#127891; Certificate</a>
                 </div>
 
                 <div>
-                    <h2>Ashok-Leyland</h2>
+                    <h2>ASHOK-LEYLAND</h2>
                     <img src={ashok} alt="ashok-leyland-logo"/>
                     <p>Apprentice-Ship[NAPS-Trainee]</p>
                     <p><em>2022 - 2024</em></p>
